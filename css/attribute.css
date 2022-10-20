@@ -1,0 +1,41 @@
+input[type = "text"]{
+
+    color: rgb(69, 6, 245);
+    background-color: rgb(175, 248, 212);
+}   
+
+input[type = "password"]{
+    background-color: pink;
+}
+
+/* a[href = "https://google.co.in"]{
+
+    color: green; 
+ }     */
+
+/* a[href *= "google"]{
+
+    color:red;
+} */
+
+/* a[href ^= "https"]{
+
+    color:green;
+} */
+
+
+a[href $= ".com"]{
+
+    color:rgb(247, 133, 218);
+}
+
+h2{
+border: 4px ridge red;
+padding: 20px;
+margin: 20px auto;
+width: 500px;
+text-align: center;
+background-color: antiquewhite;
+
+
+}

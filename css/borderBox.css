@@ -1,0 +1,33 @@
+hr{
+    width: 500px;
+    margin-left: 0px;
+}
+
+.box{
+     box-sizing: border-box;
+    width: 500px;
+    border: 10px solid red;
+    padding: 50px;
+    background-color: pink;
+}
+
+h3{
+     font-size: 40px;
+    text-decoration: underline solid green;
+}
+
+p{
+    line-height: 2  0px;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 10px;
+} */

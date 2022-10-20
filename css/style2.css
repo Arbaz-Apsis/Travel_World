@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Montserrat&family=Oswald:wght@500&display=swap');
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: white;
+}
+.wrap{
+    color: rgb(0, 255, 0);
+}
+
+#textt{
+
+color:blue;
+background-color: rgb(233, 233, 218);
+
+}
+.inn{
+    color: rgb(165, 42, 159);
+}

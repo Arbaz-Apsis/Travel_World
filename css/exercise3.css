@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Montserrat&family=Oswald:wght@500&family=Poppins:ital@1&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 1200px; 
+        margin: 0 auto; 
+    }
+
+h1{
+    background-color: #cdcdcd;
+    text-align: center;
+    padding: 20PX 0px;
+}
+
+section.aboutme , section.aboutlily{
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+
+section h3{
+    text-transform: uppercase;
+    color: rgb(11, 113, 247);
+}

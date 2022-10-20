@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Type</title>
+</head>
+<body>
+<!-- creating a form -->
+
+    <h1>HTML FORMS</h1>
+    <form action="./thankyou.html" method='GET'> 
+ <label for="UserName">UserName</label>
+ <input type="text" id="UserName" name="UserName" placeholder="UserName" required> <br> <br>
+ <label for="password">Password</label>
+ <input type="password" id="password" name="password" placeholder="Password" required >  <br> <br>
+
+ <label for="Email">Email</label>
+ <input type="Email" id="Email" name="Email" placeholder="Email" required >  <br> <br>
+
+
+  <!-- how to use radio button -->
+        <p>Select your gender:</p>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" id="Male" value="Male"> <br> 
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" id="Female" value="Female"> <br> 
+            <label for="Other">Other</label>
+            <input type="radio" name="gender" id="Other" value="Other"> <br> 
+             
+
+         <!-- drop dwon list    -->
+             <label for="agegroup">Select your age group</label>
+             <select name="age-group-value" id="agegroup">
+                <option value="5-10">5-10</option>
+                <option value="11-21">11-21</option>
+                <option value="22-32">22-32</option>
+                <option value="23-42">23-42</option>
+                </select>
+              <br>
+  <input type="Submit" value=" sing in ">
+    </form>
+</body>
+</html>

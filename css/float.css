@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Montserrat&family=Oswald:wght@500&family=Poppins:ital@1&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.form{
+    border: 2px solid green;
+}
+
+.contact{
+    width: 24%;
+    border: 2px solid rgb(0, 0, 19)  ;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 7px;
+    float: left;
+}
+
+.about{
+    width: 24%;
+    float: left;
+    background-color: pink;
+    padding: 20px;
+    margin: 7px;
+    border: 2px solid rgb(0, 0, 19)  ;
+}
+.privacy{
+    width: 24%;
+    float: left;
+    background-color: rgb(243, 137, 155);
+    padding: 20px;
+    margin: 7px;
+    border: 2px solid rgb(0, 0, 19)  ;
+}
+.policy{
+    width: 24%;
+    float: left;
+    background-color: rgb(224, 211, 94);
+    padding: 20px;
+    margin: 7px;
+    border: 2px solid rgb(0, 0, 19)  ;
+}
+
+.form::after{
+    content:"";
+display: block;
+clear: both ;
+}
+
+::selection{
+    color: green;
+    background-color: white;
+}
+
+.box{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: pink;
+    background-color: darkslateblue;
+    border: 2px ridge pink;
+    
+}
